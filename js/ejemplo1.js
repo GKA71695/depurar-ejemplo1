@@ -13,10 +13,12 @@ var nombres=[];
 var NUMERO_NOMBRES=10;
 
 for(var i= 0 ; i < NUMERO_NOMBRES; i++){
-    var nombre=prompt("Nombres");
+    var nombre=prompt("Nombre a introducir");
     nombres.push(nombre);
 }
  alert(nombres);
+
+ 
 
 /* AVISOS (WARNING) */
 console.warn("Mensaje warn");
